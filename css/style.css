@@ -1,6 +1,55 @@
-li {
+@font-face {
+  font-family: "ForrestapersonaluseRegular";
+  src: url("fonts/ForrestapersonaluseRegular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "BeautyAndTheBest";
+  src: url("fonts/BeautyAndTheBest.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* li {
   font-size: 20px;
   margin: 5 px;
   color: blue;
   padding: 5px;
+} */
+h1 {
+  margin: 0;
+  padding: 100px;
+  font-size: 200px;
+  text-align: center;
+  font-family: "ForrestapersonaluseRegular";
+  letter-spacing: 50px;
+  color: rgb(11, 09, 89);
 }
+.logo {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+svg:hover #topHeart,
+svg:hover #bottomHeart {
+  stroke: rgb(11, 09, 89);
+  stroke-width: 3%;
+}
+.txt {
+  text-align: center;
+  font-family: "BeautyAndTheBest";
+  padding: 50px;
+  font-size: 50px;
+}
+
+/*#topHeart {
+  fill: rgb(11, 09, 89);
+}
+#bottomHeart {
+  fill: rgb(22, 07, 93);
+}
+#Cross {
+  fill: rgb(12, 12, 20);
+}
+*/
