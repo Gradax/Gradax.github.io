@@ -10,6 +10,14 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "Tildascriptsnonconnectdemo";
+  src: url("../fonts/Tildascriptsnonconnectdemo.otf");
+}
+@font-face {
+  font-family: "BeautyAndTheBest";
+  src: url("../fonts/BeautyAndTheBest.ttf");
+}
 
 /*Для фона*/
 body,
@@ -130,7 +138,7 @@ svg:hover #bottomHeart {
 }
 
 /* Content second Page*/
-.showcase-second {
+.container-second {
   background-color: #000;
   height: 100%;
   /* position: relative; */
@@ -152,11 +160,33 @@ svg:hover #bottomHeart {
   padding: 20px;
   top: 30px;
   right: 120px;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
 }
+.works {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
 
+fieldset {
+  width: 400px;
+}
+
+legend {
+  font-family: "Tildascriptsnonconnectdemo";
+  font-size: 50px;
+}
+
+li > a {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+}
 /*#topHeart {
   fill: rgb(11, 09, 89);
 }
